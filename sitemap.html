@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>sitemap</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Reset dan font dasar */
+    .sitemap-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, auto));
+      gap: 10rem;
+      padding: 0.5rem;
+    }
+
+    .sitemap-item {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    .sitemap-item:hover {
+      background-color: #ddd;
+      transform: scale(1.05);
+    }
+
+    .sitemap-item a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <p>Explore My Website</p>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="sitemap.html">Site Map</a>
+  </nav>
+
+  <section>
+    <div class="sitemap-container">
+      <div class="sitemap-item"><a href="about.html">About</a></div>
+      <div class="sitemap-item"><a href="contact.html">Contact</a></div>
+      <div class="sitemap-item"><a href="home.html">Home</a></div>
+      <div class="sitemap-item"><a href="sitemap.html">Site Map</a></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Roslina Aryanti. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
